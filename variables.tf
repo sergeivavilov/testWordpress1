@@ -50,13 +50,13 @@ variable priv-sub-3 {
 
 variable username {
   type        = string
-  default     = "Andy"
+  default     = "VSS"
   description = "Username for ssh to wordpress-ec2"
 }
 
 variable  sshkey {
   type        = string
-  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDiupK3I/Yq6G4PIiFm83DWEDXsqz6RZUzBQtPmSG7szMAUWrJOzvYvtCYwey0B78Yf8j99Bi/JcdBOBDV/AWFWAgNBgWo99Q9kqSGQESRNzUNTf8GQLJtGln7ZUddu/4rj0HTXpmMfXjtH7VYMmJYhsWK9+9LzbqxjMaP3JQ7qAh8/5EOQ/OR+EWkRrjZd1VgafsPg+FJGTIPv4baW1+rc73Jzal1QHO71H+ddaCJODfdyJkhGdoSFJtlfOELuNPM4tG4J2YjUMlmPBaZwBFliJU17FtfgpWR1JJC4YOtcVg5JUC0rbjSOV2xFCJX18cIoy2ekRgyfs5l7fGnerO3QcU/NDFGIuMuvLxV67Xf6yH0ZFB+PJQmJ2gQj9fAIs0M3FZEJDg92lAZFl4rhInF2D13s8GMSEMg2gXwAyKZrT4ca+OHqY8zCdVnqIcaxIoCVJGgfCIDz0NuK6yT0DlP/Mw9ggywCjffQNY/u03DfGxop2+oeHohNX8f/Las5dZ8= steshak@Andy-2.local"
+  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHGpsfF9Bx6EHKaf2NjIUq/G3cf5RG8so78DSh2rK5ry9XoZNueN1AUKK8DdU/1/pHVtedoY6PLrYN+HBh32AnEOvKkPL1ce9Wc5V5txVkUZ24rPZiyMnMondbNuAVD8l8kfMbe2A0nu/2qMMVf2aHbXK/fa/UsE4ZGnFxvFRrBjIB2jun/q0tf/prULCYjG79UA8Kxs36FO/S+SXkmI4kN5ZYc/DMLmLckzy1HZJiLtVIRrvtp/sKlFkdEFWHNvw60cIYHRhhm81gVwpQgdZLTXGKgt5slptAXUsZi4+kejsajDYtCqDmUQzoLQcpHbZdbXKgaY3WnJ0UgET+Bz0n sergeivavilov@Tatianas-MacBook-Pro.local"      #"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDiupK3I/Yq6G4PIiFm83DWEDXsqz6RZUzBQtPmSG7szMAUWrJOzvYvtCYwey0B78Yf8j99Bi/JcdBOBDV/AWFWAgNBgWo99Q9kqSGQESRNzUNTf8GQLJtGln7ZUddu/4rj0HTXpmMfXjtH7VYMmJYhsWK9+9LzbqxjMaP3JQ7qAh8/5EOQ/OR+EWkRrjZd1VgafsPg+FJGTIPv4baW1+rc73Jzal1QHO71H+ddaCJODfdyJkhGdoSFJtlfOELuNPM4tG4J2YjUMlmPBaZwBFliJU17FtfgpWR1JJC4YOtcVg5JUC0rbjSOV2xFCJX18cIoy2ekRgyfs5l7fGnerO3QcU/NDFGIuMuvLxV67Xf6yH0ZFB+PJQmJ2gQj9fAIs0M3FZEJDg92lAZFl4rhInF2D13s8GMSEMg2gXwAyKZrT4ca+OHqY8zCdVnqIcaxIoCVJGgfCIDz0NuK6yT0DlP/Mw9ggywCjffQNY/u03DfGxop2+oeHohNX8f/Las5dZ8= steshak@Andy-2.local"
   description = "sshkey for wordpress-ec2"
 }
 
